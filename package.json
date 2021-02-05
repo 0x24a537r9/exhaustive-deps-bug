@@ -1,0 +1,17 @@
+{
+  "name": "exhaustive-deps-bug",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "author": "Cameron Behar <0x24a537r9@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react": "^17.0.1",
+    "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "test": "yarn eslint index.tsx"
+  }
+}
